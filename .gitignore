@@ -1,7 +1,16 @@
 # Compiler files
 cache/
 out/
+lib/
 
+# Dependencies
+node_modules
+
+# IDE
+.vscode
+.ide/
+*.swp
+*.swo
 # Ignores development broadcast logs
 !/broadcast
 /broadcast/*/31337/
@@ -12,3 +21,12 @@ docs/
 
 # Dotenv file
 .env
+.env.*
+
+# Misc
+.DS_Store
+
+# Forge libs and submodules
+lib/
+lib/forge-std/
+lib/openzeppelin-contracts/
